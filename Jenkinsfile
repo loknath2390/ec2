@@ -3,6 +3,6 @@ node{
     git 'https://github.com/loknath2390/ec2.git'
    }
    stage('Compile-Package'){
-    sh 'mvn compose package'   
+    sh 'mvn package'   
    }
 }
